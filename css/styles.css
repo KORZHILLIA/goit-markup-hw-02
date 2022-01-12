@@ -1,0 +1,181 @@
+:root {
+  --font-lead-color: #212121;
+  --font-support-color: #757575;
+  --additional-and-hover-color: #2196f3;
+  --white: #ffffff;
+  --main-background-color: #2f303a;
+  --footer-font-color: rgba(255, 255, 255, 0.6);
+  --filter-btn-color: #f5f4fa;
+}
+body {
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  color: var(--font-lead-color);
+}
+
+body button {
+    cursor: pointer;
+}
+.header {
+  font-weight: 500;
+  color: var(--font-lead-color);
+}
+
+.logo-main {
+  font-family: Raleway, Tahoma, sans-serif;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--font-lead-color);
+  line-height: 1.19;
+}
+
+.logo-main .blue-part-logo {
+  color: var(--additional-and-hover-color);
+}
+
+.header-nav > li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-nav > li a:hover,
+.header-nav > li a:focus {
+  color: var(--additional-and-hover-color);
+}
+
+.main-mail,
+.header-tel {
+  text-decoration: inherit;
+  color: var(--font-support-color);
+}
+
+.main-mail:hover,
+.main-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
+.basement .phys-address:hover,
+.basement .phys-address:focus,
+.basement .footer-mail:hover,
+.basement .footer-mail:focus,
+.basement address .footer-tel:hover,
+.basement address .footer-tel:focus {
+  color: var(--additional-and-hover-color);
+}
+
+.slogan {
+    background-color: var(--main-background-color);
+}
+
+.slogan-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.order-btn {
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.87;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--additional-and-hover-color);
+}
+
+.features-describer {
+  font-size: 14px;
+}
+
+.features-describer h4 {
+  text-transform: uppercase;
+  line-height: 1.14;
+  font-weight: 700;
+}
+
+.features-describer p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--font-support-color);
+}
+
+.sub-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.our-business img,
+.portfolio-main img {
+  width: 370px;
+  height: 294px;
+}
+
+.our-team-figure img {
+  width: 270px;
+  height: 260px;
+}
+
+.our-team-figure figcaption {
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.our-team-figure figcaption span {
+  color: var(--font-support-color);
+}
+
+.basement {
+  background-color: var(--main-background-color);
+}
+
+.basement .logo-footer {
+  color: var(--white);
+}
+
+.basement address {
+  font-style: normal;
+  color: var(--footer-font-color);
+  line-height: 1.71;
+}
+
+.basement .phys-address {
+  color: var(--white);
+}
+
+.basement .footer-mail {
+    color: inherit;
+    text-decoration: none;
+}
+
+.filter-btn > li button {
+  background-color: var(--filter-btn-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+}
+
+.filter-btn > li button:hover,
+.filter-btn > li button:focus {
+  background-color: var(--additional-and-hover-color);
+  color: var(--white);
+}
+
+.portfolio-main figcaption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-main figcaption span {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--font-support-color);
+}
