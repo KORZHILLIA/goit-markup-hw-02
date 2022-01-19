@@ -13,7 +13,7 @@ body {
 }
 
 body button {
-    cursor: pointer;
+  cursor: pointer;
 }
 .header {
   font-weight: 500;
@@ -63,7 +63,7 @@ body button {
 }
 
 .slogan {
-    background-color: var(--main-background-color);
+  background-color: var(--main-background-color);
 }
 
 .slogan-text {
@@ -89,7 +89,7 @@ body button {
   font-size: 14px;
 }
 
-.features-describer h4 {
+.features-describer h3 {
   text-transform: uppercase;
   line-height: 1.14;
   font-weight: 700;
@@ -108,24 +108,14 @@ body button {
   text-align: center;
 }
 
-.our-business img,
-.portfolio-main img {
-  width: 370px;
-  height: 294px;
-}
-
-.our-team-figure img {
-  width: 270px;
-  height: 260px;
-}
-
-.our-team-figure figcaption {
+.our-team-pic-name,
+.our-team-pic-rank {
   font-weight: 500;
   line-height: 1.19;
   text-align: center;
 }
 
-.our-team-figure figcaption span {
+.our-team-pic-rank {
   color: var(--font-support-color);
 }
 
@@ -141,15 +131,18 @@ body button {
   font-style: normal;
   color: var(--footer-font-color);
   line-height: 1.71;
+  text-decoration: none;
+}
+
+.basement .phys-address,
+.basement .footer-mail,
+.basement .footer-tel {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .basement .phys-address {
   color: var(--white);
-}
-
-.basement .footer-mail {
-    color: inherit;
-    text-decoration: none;
 }
 
 .filter-btn > li button {
@@ -168,13 +161,17 @@ body button {
   color: var(--white);
 }
 
-.portfolio-main figcaption {
+.portfolio-cards .portfolio-card-header,
+.portfolio-cards .portfolio-card-subheader {
   font-weight: 700;
+}
+
+.portfolio-cards .portfolio-card-header {
   font-size: 18px;
   line-height: 2;
 }
 
-.portfolio-main figcaption span {
+.portfolio-cards .portfolio-card-subheader {
   font-size: 16px;
   line-height: 1.87;
   color: var(--font-support-color);
