@@ -32,13 +32,7 @@ body button {
   color: var(--additional-and-hover-color);
 }
 
-.page-header-nav,
-.page-header-contacts,
-.our-business-pics,
-.our-team-pics,
-.basement-address-list,
-.filter-btns,
-.portfolio-cards {
+.no-style-list {
   list-style: none;
 }
 
