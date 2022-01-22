@@ -32,6 +32,8 @@ body button {
   color: var(--additional-and-hover-color);
 }
 
+
+
 .no-style-list {
   list-style: none;
 }
@@ -40,6 +42,10 @@ body button {
   font-size: 14px;
   text-decoration: none;
   color: inherit;
+}
+
+.is-active {
+  color: var(--additional-and-hover-color);
 }
 
 .page-header-nav-link:hover,
@@ -89,11 +95,8 @@ body button {
   background-color: var(--additional-and-hover-color);
 }
 
-.features-describer {
-  font-size: 14px;
-}
-
 .features-describer-header {
+  font-size: 14px;
   text-transform: uppercase;
   line-height: 1.14;
   font-weight: 700;
@@ -114,9 +117,13 @@ body button {
 
 .our-team-pic-name,
 .our-team-pic-rank {
-  font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
   text-align: center;
+}
+
+.our-team-pic-name {
+  font-weight: 500;
 }
 
 .our-team-pic-rank {
@@ -132,6 +139,7 @@ body button {
 }
 
 .basement-address {
+  font-size: 14px;
   font-style: normal;
   color: var(--footer-font-color);
   line-height: 1.71;
@@ -153,6 +161,7 @@ body button {
   background-color: var(--filter-btn-color);
   border: none;
   border-radius: 4px;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -165,14 +174,10 @@ body button {
   color: var(--white);
 }
 
-.portfolio-card-header,
-.portfolio-card-subheader {
-  font-weight: 700;
-}
-
 .portfolio-card-header {
   font-size: 18px;
-  line-height: 2;
+  line-height: 2.0;
+  font-weight: 700;
 }
 
 .portfolio-card-subheader {
